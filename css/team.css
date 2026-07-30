@@ -1,0 +1,64 @@
+.team {
+    background: #f4f4fd;
+    padding: 120px 0px;
+
+
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    
+    
+}
+
+.team-item {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+}
+
+.team-item-image {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.team-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 16px;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f42;
+    
+
+}
+
+.team-item-position {
+    text-align: center;
+    
+}
