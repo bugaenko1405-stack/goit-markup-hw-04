@@ -45,10 +45,12 @@
     padding: 24px 0px;
     font-weight: 500;
     color: #2e2f42;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover, .header-nav-link:focus, .header-nav-link.current {
     color: #404BBF;
+    
 }
 
 .header-nav-link.current {
