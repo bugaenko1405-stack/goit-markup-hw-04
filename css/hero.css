@@ -5,6 +5,13 @@
     gap: 0px;
     background: #2e2f42;
     padding: 188px 0px;
+    background: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 
 .hero .container {
@@ -39,6 +46,7 @@
     white-space: nowrap;
     border: none;
     cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover, .hero-button:focus {

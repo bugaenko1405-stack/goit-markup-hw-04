@@ -1,4 +1,5 @@
 .features {
+   
     
 }
 
@@ -25,3 +26,16 @@
 }
 
 .features-item-text {}
+
+.features-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 18px;
+    background-color: #f4f4fd;
+    
+}
