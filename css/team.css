@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    margin-bottom: 8px;
+    padding: 32px 16px;
 }
 
 .team-item-title {
@@ -64,25 +64,26 @@
     
 }
 
-.team-item-social {
+.team-item-social-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .team-item-social-link {    
     border-radius: 40px;
     width: 40px;
     height: 40px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     display: flex;     
     align-items: center;
     justify-content: center;
-    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #f4f4fd;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-item-social-link:hover, .team-item-social-link:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }

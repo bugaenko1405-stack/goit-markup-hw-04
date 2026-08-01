@@ -67,7 +67,6 @@
     height: 4px;
     border-radius: 2px;
     background-color: #404BBF;
-    transition: width 0.3s ease-in-out;
 }
 
 .header-address {
@@ -82,4 +81,6 @@
 
 .header-address-link:hover, .header-address-link:focus {color: #404BBF;}
 
-.header-address-link {}
+.header-address-link {
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
